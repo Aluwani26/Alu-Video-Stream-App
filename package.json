@@ -1,0 +1,39 @@
+{
+  "name": "Alu-Video-Stream-App",
+  "version": "1.0.0",
+  "description": "Video Streaming Training Application ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "lab -c -L",
+    "test-cover": "lab -c -r html -o ./test/artifacts/coverage.html && open ./test/artifacts/coverage.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "ALuwani Simetsi <aluwani.simetsi@mondiamedia.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "confidence": "3.x.x",
+    "glue": "4.x.x",
+    "hapi": "17.x.x",
+    "hoek": "4.x.x",
+    "inert": "^4.2.1",
+    "jade": "1.x.x",
+    "vision": "4.x.x",
+    "visionary": "6.x.x"
+  },
+  "devDependencies": {
+    "code": "3.x.x",
+    "lab": "11.x.x",
+    "nodemon": "1.x.x"
+  }
+}
